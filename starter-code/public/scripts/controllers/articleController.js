@@ -6,7 +6,7 @@
   // code that used to be in index.html.
   // Also be sure to hide all the main section elements, and reveal the #articles section:
   articleController.index = function () {
-    Article.fetchAll(articleView.initIndexPage);
+    // Article.fetchAll(articleView.initIndexPage);
     $('main > section').hide();
     $('#articles').show();
   };
